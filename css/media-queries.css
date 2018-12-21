@@ -1,0 +1,180 @@
+@media only screen and (min-width: 768px){
+
+    .heading-style {
+
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .socials {
+
+        font-size: 80px;
+    }
+
+    .para-style  {
+
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .website-thumb{ 
+
+        width: 600px;
+        height: 600px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    }
+
+    .site-link {
+
+        
+        margin: 20px;
+        font-size: 30px;
+        font-family: 'PT Sans', sans-serif;
+        border: 3px solid black;
+    }
+
+    .tech-used-portfolio{
+
+        font-size: 50px;
+    }
+
+    .portfolio-heading {
+
+        font-size: 40px;
+    }
+
+    .portfolio-txt {
+
+        font-size: 35px;
+    }
+
+    .header-content {
+
+        top: 70px;
+      }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .para-style {
+        display: none;
+
+    }
+    .para-style-grid {
+
+        margin-top: 50px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 30px;
+        margin-left: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .coding-img{
+
+        width: 500x;
+        height: 500px;
+        margin-left: 50px;
+    }
+
+    .portfolio-heading {
+
+        border: 0;
+        
+    }
+    .desk-thumb {
+
+        width: 50%;
+        height:auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+        
+    }
+
+    .desk-thumb:hover{
+
+        
+        border: 1px solid red;
+        box-shadow: 5px 10px 8px 10px #888888;
+        
+    }
+
+      nav {
+
+        background-color: rgba(148, 109, 24, 0.171);
+        text-align: center;
+        font-size: 20px;
+     
+        
+      }
+      nav ul {
+
+        display: inline-flex;
+        
+       
+      }
+      
+      nav ul li{
+
+       
+        list-style: none;
+        margin: 35px;
+        margin-left: 100px;
+        
+      }
+
+      nav ul li a {
+
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+
+        
+      }
+
+      nav ul li a:active{
+
+        color: rgba(253, 76, 76, 0.75); 
+      }
+
+      .header-content {
+
+        top: 75px;
+      }
+
+      .site-link {
+
+        border: 0;
+      
+
+      }
+
+      .portfolio-txt {
+
+        border: 0;
+      }
+
+      .portfolio {
+
+        background-color: #8888882f;
+      }
+      
+
+
+      
+}
